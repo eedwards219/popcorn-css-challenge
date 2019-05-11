@@ -1,5 +1,88 @@
-/*COLORS:
-Header background - #FFDBAA
-button - #805215
-Header Text - #553100
-Main background - #D4A76A*/
+/* Some CSS goes here */
+
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #D4A76A;
+}
+
+/* Utility classes */
+
+.center-text {
+    text-align: center;
+}
+
+/* Navbar styles */
+
+.main-nav {
+    background-color: #FFDBAA;
+    color: #553100;  
+    padding: 15px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+.nav-item:not(:first-child) {
+    margin-left: 10px;
+}
+
+/* Footer styles */
+
+/* header styles */
+.section {
+    padding: 75px;
+    background-color: #D4A76A;
+}
+
+.header-button {
+    background-color: darkblue;
+    border: none;
+    color: #553100;
+    padding: 15px 32px;
+}
+
+/* box styles */
+.columns-wrapper {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background-color: #D4A76A;
+}
+.column {
+    flex: 1;
+    padding: 10px;
+    background-color: white;
+    margin: 30px;
+}
+.second-column {
+    flex: 0;
+    padding: 10px;
+    margin: 10px;
+}
+button {
+    background-color: #553100;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.other-button {
+    width: 100%;
+}
